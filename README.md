@@ -86,6 +86,7 @@ Give that a go!
 OK, I hope that gives you enough to go on.
 
 * While I'm here: **Let me share a last few points:**
+  * If you are like me and dont use 7zip or similar, you can [extract container-files like .7z files online](https://extract.me)
   
   * The BL Touch impl in the stock firmware is 100% broken
     All the scanning a matrix when you start to print is for nothing and the points are thrown away before print
