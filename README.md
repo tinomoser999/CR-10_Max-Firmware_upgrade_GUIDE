@@ -122,3 +122,6 @@ Other than that, Check out [Teaching Tech's videos](https://www.youtube.com/@Tea
 If you need to compare start-g-code or something, let me know.
 
 ## Good luck!
+
+
+This guide was edited by tino_moser_999 based on a guide from the friendly [reddit-user u/ElectroSoprk9000](https://www.reddit.com/user/ElectroSpork9000/)
