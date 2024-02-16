@@ -25,22 +25,21 @@ Might be worthwhile to look into that and see if you can get a newer version.
 * The current version (as of Feb. 2024) linked there is:
   * [CR10Max_BIL_DW7.4.7.hex.zip](https://insanityautomation.com/Firmware/Creality/DW746/CR10Max_BIL_DW7.4.7.hex.zip)
 
-  There is a limitation with Windows systems and path depth so the file names need to be shorter than we would prefer. If you get an error compiling due to the path limit, move the folder to the root of your hard drive.
-  * Here is a legend to help decode the filenames:
-    * BLT = BLTouch
-    * ZM = BLTouch connected to ZMin port instead of Probe pin 5 connector harness
-    * BIL = Bilinear Leveling
-    * UBL - Unified Bed Leveling
-    * DZ = Dual Z Steppers
-    * Fil = FilamentRunout
-    * Slnt = Creality Silent Board
-    * H = E3D Hemera Extruder
-    * MC = Mosquito Creality mount
-    * ME = Mosquito E3D mount
-    * Melzi Host option disables local SD card to allow more features and buffer for Octoprint control
-    * NF = Noise filtering for machines with cable extensions - reduces homing accuracy!
-    * LR = Stock runout replaced with Lerdge
-  * This list might be subject to change/expand over time, [source here](https://github.com/InsanityAutomation/Marlin/blob/CrealityDwin_2.0/README.md):
+* Here is a legend to help decode the filenames:
+  * BLT = BLTouch
+  * ZM = BLTouch connected to ZMin port instead of Probe pin 5 connector harness
+  * BIL = Bilinear Leveling
+  * UBL - Unified Bed Leveling
+  * DZ = Dual Z Steppers
+  * Fil = FilamentRunout
+  * Slnt = Creality Silent Board
+  * H = E3D Hemera Extruder
+  * MC = Mosquito Creality mount
+  * ME = Mosquito E3D mount
+  * Melzi Host option disables local SD card to allow more features and buffer for Octoprint control
+  * NF = Noise filtering for machines with cable extensions - reduces homing accuracy!
+  * LR = Stock runout replaced with Lerdge
+* This list might be subject to change/expand over time, [source here](https://github.com/InsanityAutomation/Marlin/blob/CrealityDwin_2.0/README.md):
     <https://github.com/InsanityAutomation/Marlin/blob/CrealityDwin_2.0/README.md>
 
   * If you have a ***vanilla CR10Max, with BL Touch and single OOTB extruder**, then you want the firmware with **BIL** in its name, so I'd say [this 7.4.7](https://insanityautomation.com/Firmware/Creality/DW747/CR10Max_BIL_DW7.4.7.hex.zip)
@@ -67,7 +66,7 @@ I assume you know [how to flash the LCD](https://youtu.be/SBX30GmM3Qo?t=228&si=x
 
 Looking at the files I had kept, the link in the old word doc I downloaded from Tinymachines, I used [this LCD firmware set](http://insanityautomation.com/Firmware/Creality/SingleExtruderScreens_V2Rev1.1.7z).
 
-The LCD firmware I'm running is branded Tinymachines. That specific LCD-FW no longer exists, but I still have the file if you need it...
+The LCD firmware I'm running is branded Tinymachines. That specific LCD-FW no longer exists.
 
 ### If you are flashing a new version of the mobo firmware, you definitely need a newer version of the LCD firmware
 
@@ -81,7 +80,7 @@ Give that a go!
 
 ### Worst case, you can go back to 100% vanilla...
 
-...Creality mobo and LCD firmware (I can share the file) - though we all know its horribly broken.
+...Creality mobo and LCD firmware - though we all know its horribly broken.
 
 OK, I hope that gives you enough to go on.
 
@@ -124,4 +123,4 @@ If you need to compare start-g-code or something, let me know.
 
 ## Good luck!
 
-This guide was edited by [tino_moser_999](https://github.com/tinomoser999) based on a guide from the friendly [reddit-user u/ElectroSoprk9000](https://www.reddit.com/user/ElectroSpork9000/)
+This guide was edited by [tino_moser_999](https://github.com/tinomoser999) based on a guide from the friendly [reddit-user u/ElectroSpork9000](https://www.reddit.com/user/ElectroSpork9000/)
